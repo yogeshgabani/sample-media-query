@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.d-flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.align-end {
+    align-items: end;
+}
+.align-start {
+    align-items: start;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+ul {
+    list-style: none;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-10 {
+    gap: 10px;
+}
+.font-8 {
+    font-size: 8px;
+}
+.font-10 {
+    font-size: 10px;
+}
+.font-12 {
+    font-size: 12px;
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-16 {
+    font-size: 16px;
+}
+.font-18 {
+    font-size: 18px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.font-weight-700 {
+    font-weight: 700;
+}
+.text-gray {
+    color: #6C6C6C;
+}
+.bg-white {
+    background-color: #ffffff;
+}
+.pt-17 {
+    padding-top: 17px;
+}
+.header-main {
+    padding: 23px 46px;
+}
+.main-header {
+    padding: 36px 43px;
+    background-color: #F0F0F0;
+}
+.notification {
+    position: relative;
+}
+.notification::after {
+    content: "";
+    position: absolute;
+    right: -3px;
+    top: -3px;
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    border-radius: 10px;
+}
+.sub-menu-one {
+    padding: 7px 6px 7px 6px;
+    border-radius: 5px;
+}
+.sub-menu-one ul li {
+    padding: 10px 20px;
+}
+.sub-menu-one ul li:hover {
+    background-color: #000000;
+    color: #ffffff !important;
+    border-radius: 5px;
+}
+.box-one {
+    border-radius: 10px;
+    padding: 22px 16px 16px 26px;
+}
+.label-one  {
+    padding-top: 16px;
+}
+.label-one p, .label-two p {
+    color: #656565;
+    width: max-content;
+    border-radius: 3px;
+    background-color: #EFEFEF;
+    padding: 5px 10px;
+}
+.verify-label p{
+    background-color: transparent;
+    padding: 0 5px;
+}
+
+.title-header {
+    padding-top: 50px;
+}
+.title-header h5{
+    padding-bottom: 7px;
+}
+.title-header-one h6 {
+    padding-top: 30px;
+}
+.detail-name {
+    padding: 55px 0 14px 0;
+}
+.input-box {
+    padding-top: 34px;
+}
+.input-text input {
+    background: #EDEDED;
+    border-radius: 3px;
+    border: none;
+    border-style: none;
+    padding: 11px 20px;
+    width: 100%;
+}
+.input-text {
+    position: relative;
+    width: 100%;
+}
+.copy-icon i {
+    position: absolute;
+    top: 11px;
+    right: 15px;
+}
+.submit-btn {
+    border: 1px solid #239852;
+    border-radius: 3px;
+    background-color: #239852;
+    padding: 10px 25px;
+    color: #ffffff;
+    width: max-content;
+}
+.submit-btn:hover {
+    background-color: transparent;
+    color: #239852;
+    cursor: pointer;
+}
+.menu-box {
+    width: 100%;
+}
+.edit-btn {
+    border-radius: 5px;
+    width: 100%;
+    background-color: #EFEFEF;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 18px;
+}
+.edit-btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+.profile-detail img {
+    padding-bottom: 15px;
+}
+.profile-detail h3 {
+    padding-bottom: 5px;
+}
+.green-label {
+    padding: 5px 0 24px 0;
+}
+.green-label label {
+    background: #1DB75A;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #ffffff;
+}
+.skill-detail {
+    padding-top: 22px;
+}
+.label-two {
+    padding-top: 10px;
+}
+.view-btn {
+    border-radius: 5px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 18px;
+}
+.view-btn:hover {
+    background-color: #EFEFEF;
+    color: #000000;
+}
+
+@media (max-width:1199px) {
+    .input-text input {
+        padding: 11px 10px;
+    }
+    .input-box {
+        padding-top: 20px;
+    }
+    .submit-btn {
+        padding: 10px 15px;
+    }
+    .input-box {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .copy-icon i {
+        top: 11px;
+        right: 8px;
+    }
+}
+
+@media (max-width:1024px) {
+    .main-header {
+        padding: 25px 20px;
+    }
+    .sub-menu-one ul li {
+        padding: 5px 10px;
+    }
+    .box-one {
+        padding: 15px 10px;
+    }
+    .label-one {
+        padding-top: 10px;
+    }
+    .label-one i, .box-one h3 {
+        font-size: 10px;
+    }
+    .box-one h2 {
+        font-size: 14px;
+    }
+    .input-box, .detail-name, .title-header-one h6 {
+        padding-top: 15px;
+    }
+    .submit-btn, .input-text input {
+        padding: 10px;
+    }
+    .title-header {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:992px) {
+    .label-one, .detail-project-review {
+        flex-wrap: wrap;
+        padding: 0;
+        gap: 5px;
+    }
+    
+}
+
+@media (max-width:824px) {
+    .main-header {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .main-box-one {
+        padding-top: 10px;
+    }
+    .header-main {
+        padding: 15px 20px;
+    }
+    .header-menu-bar, .header-menu-bar-icon {
+        gap: 10px;
+    }
+    .main-box-one {
+        padding: 10px 0 !important;
+    }
+    .box-one, .main-box-one {
+        width: 100%; height: max-content;
+    }
+    .available-box {
+        padding: 0 !important;
+    }
+    .profile-menu-detail {
+        display: flex;
+        width: 100%;
+        gap: 10px;
+    }
+    .green-label, .skill-detail {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .view-btn {
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width:425px) {
+    .header-menu-bar {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .main-box-one {
+        padding: 0 !important;
+    }
+    .main-header {
+        padding: 10px;
+    }
+    .sub-menu-one, .box-one {
+        margin: 10px 0;
+    }
+    .title-header {
+        padding-top: 10px;
+    }
+    .label-two {
+        padding-top: 5px;
+    }
+    .edit-btn, .view-btn {
+        padding: 8px 10px;
+        margin-top: 10px;
+    }
+}
+
+
+
