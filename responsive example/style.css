@@ -1,0 +1,206 @@
+ @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');               
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.text-center {
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.d-flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.align-end {
+    align-items: end;
+}
+.align-start {
+    align-items: start;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.font-12 {
+    font-size: 12px;
+}
+.font-16 {
+    font-size: 16px;
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-31 {
+    font-size: 31px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.text-color-blue {
+    color: #1779ba;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.py-15 {
+    padding:  0 15px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.gap-20 {
+    gap: 20px;
+}
+.text-whte {
+    color: #ffffff;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.box-one {
+    padding: 16px;
+    border: 1px solid rgba(10, 10, 10, 0.25);
+}
+.sub-box  {
+    width: 290px;
+    margin-bottom: 16px;
+}
+.sub-box p, .box-title-one p, .box-one p{
+    line-height: 1.6;
+}
+.box-title-one {
+    background-color: #d7ecfa;
+    border: 1px solid rgba(10, 10, 10, 0.25);
+    padding: 16px;
+    width: 100%;
+}
+hr {
+    margin: 16px auto;
+    border-top: 0;
+    border-bottom: 1px solid #cacaca;
+}
+.input-text label, .select-menu label, .radio-select label, .text-area label {
+    line-height: 1.8;
+}
+.input-text input, .select-menu select, .text-area textarea {
+    width: 100%;
+    border: 1px solid #cacaca;
+    border-radius: 0;
+    background-color: #fefefe;
+    margin: 0 0 16px;
+    padding: 8px;
+    outline: none;
+    height: 38px;
+}
+.input-text input::placeholder, .select-menu select, .text-area textarea::placeholder {
+    color: #cacaca; 
+    font-size: 16px;
+}
+.btn-com {
+    padding: 0 16px;
+    background-color: #e6e6e6;
+    color: #0a0a0a;
+    border: 1px solid #cacaca;
+    margin: 0 0 16px;
+}
+.select-btn {
+    padding: 12px 14px;
+    border: 1px solid transparent;
+    width: max-content;
+    margin-bottom: 16px;
+}
+.goto-btn {
+    padding: 10px 12px;
+    border: 1px solid transparent;
+    width: max-content;  
+}
+.try-this-box {
+    width: 40%;
+}
+
+@media (max-width:768px) {
+    .heading-main h1 {
+        font-size: 48px;
+    }
+    .box-one h3 {
+        font-size: 31px;
+    }
+    .box-title {
+        display: block;
+    }
+    .sub-box {
+        width: 100%;
+    }
+    .sub-box p{
+        padding-bottom: 8px;
+    }  
+    .rad-opt-btn {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:624px) {
+    .heading-main h1 {
+        font-size: 24px;
+    }
+    .box-one h3 {
+        font-size: 19px;
+    }
+    .box-title {
+        display: block;
+    }
+    .box-second {
+        flex-direction: column;
+    } 
+    .try-this-box {
+        width: 100% !important;
+    }
+}
+@media (max-width:424px) {
+    .box-one, .input-text{
+        width: 100%;
+    }
+    .six-cell, .input-box {
+        flex-wrap: wrap;
+        gap: 0;
+        width: 100%;
+    }
+    .box-two {
+        margin-bottom: 10px;
+    }
+    .box-two h5{
+        font-size: 17px;
+    }
+    .goto-btn {
+        padding: 10px 12px;
+        margin: 0;
+    }
+}
