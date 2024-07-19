@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+.main-header h1 {
+    font-size: 30px;
+    text-align: center;
+}
+.one, .two {
+    background-color: orange;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+.three {
+    background-color: yellowgreen;
+    padding: 10px;
+    margin: 10px;
+}
+.three h1 {
+    font-size: 25px;
+}
+.four {
+    background-color: skyblue;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+.five {
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:1024px) {
+    
+}

@@ -1,0 +1,74 @@
+* {
+    padding: 10px;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+.card-menu {
+    padding: 10px;
+    border: 1px solid rgb(68, 5, 5);
+    border-radius: 10px;
+    background-color: rgb(169, 202, 191);
+}
+.card-menu h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: blueviolet;
+}
+.card-menu p {
+    font-size: 22px;
+    color: rgb(4, 5, 82);
+    line-height: 24px;
+}
+.card {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px; 
+}
+
+
+
+
+
+@media (max-width:1024px) {
+    .card {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card-menu h1 {
+        font-size: 22px;
+    }
+    .card-menu p {
+        font-size: 18px;
+        line-height: 20px; 
+    } 
+    
+}
+
+@media (max-width:768px) {
+    .card {
+        grid-template-columns: 1fr 1fr ;
+    }
+    .card-menu h1 {
+        font-size: 24px;
+    }
+    .card-menu p {
+        font-size: 18px;
+        line-height: 20px; 
+    } 
+}
+
+@media (max-width: 576px) {
+    .card {
+        grid-template-columns: 1fr ;
+    }
+    .card-menu h1 {
+        font-size: 16px;
+    }
+    .card-menu p {
+        font-size: 13px;
+        line-height: 20px;
+    }  
+}

@@ -1,0 +1,41 @@
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-card {
+    /* padding: 10px; */
+    border: 1px solid red;
+    width: 400px;
+
+}
+.card-menu {
+    padding: 10px;
+}
+.card-menu h1 {
+    font-size: 25px;
+    color: rgb(13, 155, 190);
+    padding-bottom: 5px;
+}
+
+.card-menu p {
+    font-size: 18px;    
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+@media (max-width:1299px) {
+    .main-header{
+        justify-content: center;
+    }
+}
+
+@media (max-width:992px) {
+    .main-card {
+        width: 100%;
+    }   
+}
